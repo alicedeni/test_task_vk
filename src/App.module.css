@@ -1,0 +1,14 @@
+.header {
+    background: #0f457e;
+    color: #fff;
+    height: 70px;
+}
+
+.title {
+    margin: 20px 0;
+    color: #fff;
+}
+
+.content {
+    margin: 24px;
+}
