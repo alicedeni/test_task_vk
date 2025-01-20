@@ -2,6 +2,7 @@ import React from 'react'
 import { Layout, Typography } from 'antd'
 import ItemList from './components/list/ItemList'
 import styles from './App.module.css'
+import EventEmitterTest from './components/EventEmitterTest'
 
 const { Header, Content } = Layout
 const { Title } = Typography
@@ -15,6 +16,7 @@ const App: React.FC = () => (
     </Header>
     <Content className={styles.content}>
       <ItemList />
+      <EventEmitterTest />
     </Content>
   </Layout>
 )
